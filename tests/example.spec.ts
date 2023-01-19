@@ -1,4 +1,4 @@
-import { expect, test } from '@/content/fixtures'
+import { expect, test } from '@/fixtures/index'
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/')
