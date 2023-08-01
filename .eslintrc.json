@@ -5,7 +5,6 @@
         "ecmaVersion": "latest"
     },
     "plugins": [
-        "cypress",
         "@typescript-eslint",
         "prettier"
     ],
@@ -13,15 +12,11 @@
         "prettier",
         "plugin:prettier/recommended",
         "eslint:recommended",
-        "plugin:cypress/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
         "@typescript-eslint/no-namespace": "off",
-        "cypress/no-assigning-return-values": "error",
-        "cypress/assertion-before-screenshot": "warn",
-        "cypress/no-async-tests": "error",
         "prettier/prettier": 2,
         "indent": [
           "error",
@@ -29,7 +24,6 @@
         ]
     },
     "env": {
-        "cypress/globals": true,
         "node": true
     }
 }
