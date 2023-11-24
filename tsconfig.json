@@ -15,6 +15,13 @@
       "@/types/*": ["./types/*"],
       "@/pages/*": ["./page-objects/*"],
     },
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    ".eslintrc.json",
+    "package.json",
+    "./tests/**/*",
+    "./page-objects/**/*"
+  ]
 }
