@@ -2,7 +2,8 @@
     "root": true,
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "project": ["./tsconfig.json"]
     },
     "plugins": [
         "@typescript-eslint",
@@ -17,6 +18,7 @@
     ],
     "rules": {
         "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-floating-promises": "error",
         "prettier/prettier": 2,
         "indent": [
           "error",
