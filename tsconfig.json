@@ -20,6 +20,7 @@
   },
   "include": [
     ".eslintrc.json",
+    "playwright.config.ts",
     "package.json",
     "./tests/**/*",
     "./page-objects/**/*"
