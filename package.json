@@ -25,7 +25,7 @@
     "prettier": "3.1.0"
   },
   "dependencies": {
-    "@playwright/test": "1.40.0",
+    "@playwright/test": "1.40.1",
     "dotenv": "16.3.1",
     "lariat": "2.0.1",
     "typescript": "5.3.2"
