@@ -3,7 +3,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "module": "amd",
+    "module": "ESNext",
     "moduleResolution": "node",
     "target": "es2019",
     "lib": ["esnext", "dom"],
@@ -16,7 +16,8 @@
       "@/pages/*": ["./page-objects/*"],
     },
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"]
   },
   "include": [
     ".eslintrc.json",
